@@ -1,10 +1,10 @@
-// Must wait approx 5 seconds after page load before calling this script.
+// Must wait approx 5 seconds after page load before calling.
 // changeInfo.status === "complete" before video components finish loading.
 
 setTimeout(() => {
   const parent = document.getElementById("bookmark-portal");
-  while (parent.firstChild) {
-    console.log("removing bookmark: ", parent.firstChild);
-    parent.firstChild.remove();
+  for (let i = 0; i < parent.children.length; i++) {
+    parent.children[i].hidden = true;
+    console.log("Hiding bookmark: ", parent.children[i]);
   }
 }, 5000);
