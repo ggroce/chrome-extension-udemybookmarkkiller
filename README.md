@@ -4,7 +4,7 @@ This is an extension for Chrome or Brave browsers that hides the inline video bo
 
 #### To install extension in Chrome or Brave: 
 
-1. Clone the repo (or download as zip and extract anywhere)
+1. Clone the repo (or <a href="https://github.com/ggroce/chrome-extension-udemybookmarkkiller/archive/refs/heads/main.zip">download as zip</a> and extract anywhere)
    ```sh
    git clone https://github.com/ggroce/chrome-extension-boiler-mv3.git
    ```
