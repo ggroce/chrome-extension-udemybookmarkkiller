@@ -4,13 +4,13 @@ This is an extension for Chrome or Brave browsers that hides the inline video bo
 
 #### To install extension in Chrome or Brave: 
 
-1. Clone the repo
+1. Clone the repo (or download as zip and extract anywhere)
    ```sh
    git clone https://github.com/ggroce/chrome-extension-boiler-mv3.git
    ```
 2. Enter the Extension menu in Chrome or Brave, and activate developer mode.
 
-3. From the Extension menu, select 'Load unpacked', and select the local project directory this repo was cloned into.  
+3. From the Extension menu, select 'Load unpacked', and select the local project directory this repo was cloned/downloaded into.  
 
 <br>
 Code is built for Manifest Version 3, and utilizes service worker for event handling.
